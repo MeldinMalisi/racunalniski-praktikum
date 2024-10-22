@@ -51,4 +51,14 @@ h2 {
     text-align: left;
     float: right;
     margin-left: 2em;
+    border-radius: 50%;
+}
+
+.slika p:last-child {
+    font-size: 0.8em;
+    line-height: 50%;
+}
+
+a::before {
+    content: '🔗';
 }
